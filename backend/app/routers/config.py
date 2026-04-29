@@ -25,6 +25,8 @@ async def get_config():
     key = cfg.get("kimi_api_key", "")
     if key and len(key) > 12:
         cfg["kimi_api_key_masked"] = key[:6] + "..." + key[-6:]
+    # Never expose the full key in API response
+    cfg.pop("kimi_api_key", None)
     return cfg
 
 @router.post("")
