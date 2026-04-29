@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Vite
+.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime generated files (do not commit)
+backend/generated_images/
+backend/generated_reports/
+backend/app/chat_history.db
+*.db-journal
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Claude Code local config
+.claude/
+
+# Environment variables
+.env
+.env.local
+.env.*.local

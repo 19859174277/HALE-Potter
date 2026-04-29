@@ -1,0 +1,63 @@
+Slide width: 12192000
+Slide height: 6858000
+Number of slide layouts: 11
+
+Layout 0: 标题幻灯片
+
+Layout 1: 标题和内容
+
+Layout 2: 节标题
+
+Layout 3: 两栏内容
+
+Layout 4: 比较
+   Placeholder idx=0, type=TITLE (1), name=标题 1
+   Placeholder idx=1, type=BODY (2), name=文本占位符 2
+   Placeholder idx=2, type=OBJECT (7), name=内容占位符 3
+   Placeholder idx=3, type=BODY (2), name=文本占位符 4
+   Placeholder idx=4, type=OBJECT (7), name=内容占位符 5
+   Placeholder idx=10, type=DATE (16), name=日期占位符 6
+   Placeholder idx=11, type=FOOTER (15), name=页脚占位符 7
+   Placeholder idx=12, type=SLIDE_NUMBER (13), name=灯片编号占位符 8
+
+Layout 5: 仅标题
+   Placeholder idx=0, type=TITLE (1), name=标题 1
+   Placeholder idx=10, type=DATE (16), name=日期占位符 2
+   Placeholder idx=11, type=FOOTER (15), name=页脚占位符 3
+   Placeholder idx=12, type=SLIDE_NUMBER (13), name=灯片编号占位符 4
+
+Layout 6: 空白
+   Placeholder idx=10, type=DATE (16), name=日期占位符 1
+   Placeholder idx=11, type=FOOTER (15), name=页脚占位符 2
+   Placeholder idx=12, type=SLIDE_NUMBER (13), name=灯片编号占位符 3
+
+Layout 7: 内容与标题
+   Placeholder idx=0, type=TITLE (1), name=标题 1
+   Placeholder idx=1, type=OBJECT (7), name=内容占位符 2
+   Placeholder idx=2, type=BODY (2), name=文本占位符 3
+   Placeholder idx=10, type=DATE (16), name=日期占位符 4
+   Placeholder idx=11, type=FOOTER (15), name=页脚占位符 5
+   Placeholder idx=12, type=SLIDE_NUMBER (13), name=灯片编号占位符 6
+
+Layout 8: 图片与标题
+   Placeholder idx=0, type=TITLE (1), name=标题 1
+   Placeholder idx=1, type=PICTURE (18), name=图片占位符 2
+   Placeholder idx=2, type=BODY (2), name=文本占位符 3
+   Placeholder idx=10, type=DATE (16), name=日期占位符 4
+   Placeholder idx=11, type=FOOTER (15), name=页脚占位符 5
+   Placeholder idx=12, type=SLIDE_NUMBER (13), name=灯片编号占位符 6
+
+Layout 9: 标题和竖排文字
+   Placeholder idx=0, type=TITLE (1), name=标题 1
+   Placeholder idx=1, type=BODY (2), name=竖排文字占位符 2
+   Placeholder idx=10, type=DATE (16), name=日期占位符 3
+   Placeholder idx=11, type=FOOTER (15), name=页脚占位符 4
+   Placeholder idx=12, type=SLIDE_NUMBER (13), name=灯片编号占位符 5
+
+Layout 10: 竖排标题与文本
+   Placeholder idx=0, type=TITLE (1), name=竖排标题 1
+   Placeholder idx=1, type=BODY (2), name=竖排文字占位符 2
+   Placeholder idx=10, type=DATE (16), name=日期占位符 3
+   Placeholder idx=11, type=FOOTER (15), name=页脚占位符 4
+   Placeholder idx=12, type=SLIDE_NUMBER (13), name=灯片编号占位符 5
+

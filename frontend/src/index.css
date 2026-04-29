@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #1e293b;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+@layer components {
+  .prose-dark h1, .prose-dark h2, .prose-dark h3, .prose-dark h4 {
+    color: #0f172a;
+    font-weight: 600;
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+  }
+  .prose-dark p {
+    color: #334155;
+    line-height: 1.75;
+    margin-bottom: 0.75em;
+  }
+  .prose-dark ul, .prose-dark ol {
+    margin-left: 1.25em;
+    margin-bottom: 0.75em;
+    color: #334155;
+  }
+  .prose-dark li {
+    margin-bottom: 0.25em;
+  }
+  .prose-dark strong {
+    color: #0f172a;
+  }
+  .prose-dark code {
+    background: #f1f5f9;
+    padding: 0.15em 0.4em;
+    border-radius: 0.25em;
+    font-size: 0.9em;
+    color: #0369a1;
+  }
+  .prose-dark pre {
+    background: #f8fafc;
+    padding: 1em;
+    border-radius: 0.5em;
+    overflow-x: auto;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 0.75em;
+  }
+  .prose-dark blockquote {
+    border-left: 3px solid #cbd5e1;
+    padding-left: 1em;
+    color: #64748b;
+    font-style: italic;
+  }
+  .prose-dark .katex {
+    color: #0f172a;
+  }
+  .prose-dark table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 0.82em;
+    margin: 1em 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  .prose-dark th, .prose-dark td {
+    padding: 0.65em 0.85em;
+    border-bottom: 1px solid #e2e8f0;
+    border-right: 1px solid #e2e8f0;
+    color: #334155;
+    vertical-align: top;
+  }
+  .prose-dark th:last-child, .prose-dark td:last-child {
+    border-right: none;
+  }
+  .prose-dark th {
+    background: linear-gradient(180deg, #eff6ff 0%, #dbeafe 100%);
+    font-weight: 600;
+    color: #1e3a8a;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-size: 0.85em;
+    border-bottom: 2px solid #3b82f6;
+  }
+  .prose-dark tbody tr {
+    background: #ffffff;
+    transition: background 0.15s ease;
+  }
+  .prose-dark tbody tr:nth-child(even) {
+    background: #f8fafc;
+  }
+  .prose-dark tbody tr:hover {
+    background: #eff6ff;
+  }
+  .prose-dark tbody tr:last-child td {
+    border-bottom: none;
+  }
+}
